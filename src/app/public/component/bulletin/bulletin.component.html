@@ -1,0 +1,19 @@
+<app-navbar></app-navbar>
+<p-table [value]="bulletin" [tableStyle]="{'min-width': '50rem'}">
+    <ng-template pTemplate="header">
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Name</th>
+            <th>ContactNo</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-bulletin>
+        <tr>
+            <td>{{bulletin.title}}</td>
+            <td>{{bulletin.description}}</td>
+            <td>{{bulletin.name}}</td>
+            <td>{{bulletin.contactNo}}</td>
+        </tr>
+    </ng-template>
+</p-table>

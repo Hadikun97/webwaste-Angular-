@@ -1,0 +1,106 @@
+.backgroundimage {
+    position: relative;
+    z-index: 0;
+}
+.boxhead {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to bottom, #0463ca, #ffffff);
+}
+
+.box {
+    width: 100%;
+    height: 100px;
+    background-color: #00000000;
+    // margin-bottom: 20px;
+}
+
+.section-1 {
+    background-color: #F5A9BC;
+    background-image: linear-gradient(to bottom, #ffffff, #1cc032);
+}
+.section-2 {
+    background-image: linear-gradient(to bottom, #1cc032, #883200);
+}
+.section-3 {
+    // width: 100%;
+    // height: 100px;
+    background-color: #000000;
+}
+    .divmaps {
+        position: relative;
+        z-index: 1;
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        background-color: #00000000;
+        background-image: linear-gradient(to bottom, #883200,  #000000);
+    }
+// .black {
+//     background-color: #000000;
+// }
+    //background-image: linear-gradient(to bottom, #883200, #000000,);
+
+
+.grassimg {
+    position: relative;
+    //z-index: -1;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grassimg img {
+    max-width: 100%;
+    height: auto;
+  }
+
+//   .ourlocation {
+//     background-color: #ffffff;
+//   }
+  
+  .maps {
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+// .cleaningimage {
+//     position: relative;
+//     border-radius: 50%;
+//     overflow: hidden;
+//   }
+//   .cleaningimage img {
+//     display: block;
+//     width: 100%;
+//     height: auto;
+//   }
+  
+  
+
+// body{
+//     background-color: aqua;
+// }
+// title {
+//     image-rendering: auto;
+//     background-color: rgba(0, 0, 0, 0);
+//     font-family: "Times New Roman", Helvetica, sans-serif;
+//     font-weight: 300;
+//     text-align: center;
+// }
+
+
+// .background {
+//     background-color: rgb(0, 0, 0);
+// }
+
+// .transparent {
+//     background-color: rgba(255, 255, 255, 0.459);
+// }
